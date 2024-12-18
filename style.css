@@ -1,0 +1,559 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+/* Style for the Contact Us section */
+.contact {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.contact-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px; /* Space below the header section */
+}
+
+.contact-logo {
+  width: 100px; /* Adjust the size of the logo as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Space between logo and heading */
+}
+
+.contact h2 {
+  font-size: 36px; /* Font size for the heading */
+  color: #333; /* Dark color for the heading */
+  margin: 0; /* Remove default margin */
+}
+
+form {
+  max-width: 600px; /* Limit form width */
+  margin: 0 auto; /* Center-align the form */
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background color for the form */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+form label {
+  display: block;
+  font-size: 18px; /* Font size for labels */
+  margin-bottom: 5px; /* Space below labels */
+}
+
+form input, form textarea {
+  width: 100%; /* Full width for input fields */
+  padding: 10px; /* Padding inside input fields */
+  margin-bottom: 20px; /* Space below input fields */
+  border: 1px solid #ddd; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size for input fields */
+}
+
+form button {
+  background-color:orangered; /* Dark background color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 15px 20px; /* Padding inside the button */
+  font-size: 18px; /* Font size for button text */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+form button:hover {
+  background-color: orange; /* Darker background on hover */
+}
+
+
+/* General styling for the header */
+header {
+  padding: 15px 30px; /* Adjusted padding for a balanced look */
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space out navigation and social icons */
+  align-items: center; /* Center items vertically */
+  font-family: 'Arial', sans-serif; /* Font for the header */
+  color: #000; /* Black text color for contrast */
+  background: #f8f9fa; /* Light background color for the header */
+  border-bottom: 2px solid #ddd; /* Slightly thicker border for separation */
+}
+
+/* Styling for navigation */
+nav ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex; /* Display navigation items in a row */
+}
+
+nav ul li {
+  margin-right: 20px; /* Space between navigation items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline */
+  color: #000; /* Black text color for links */
+  font-size: 16px; /* Font size for links */
+  font-weight: normal; /* Normal font weight */
+  padding: 5px 10px; /* Padding around links */
+  transition: color 0.3s; /* Smooth transition for color */
+  border-radius: 5px; /* Rounded corners for link background */
+}
+
+nav ul li a:hover {
+  color: #ff5722; /* Change text color to orange on hover */
+}
+
+/* Social media icons styling */
+.social-icons {
+  display: flex; /* Flexbox for alignment */
+  gap: 20px; /* Space between icons */
+}
+
+.social-icons a {
+  display: block; /* Make the links block level for proper sizing */
+  transition: transform 0.3s, opacity 0.3s; /* Smooth transform and opacity transition */
+}
+
+.social-icons img {
+  width: 30px; /* Size for icons */
+  height: 30px; /* Size for icons */
+  border-radius: 50%; /* Circular icons for a modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.social-icons a:hover img {
+  transform: scale(1.2); /* Enlarge icons on hover */
+  opacity: 0.8; /* Slightly fade icons on hover */
+}
+
+.cart-item {
+  margin-bottom: 20px; /* Adds space between cart items */
+}
+
+.cart-item form {
+  display: inline-block; /* Aligns forms next to each other */
+  margin-right: 10px; /* Adds space between the forms */
+}
+
+.cart-item button {
+  padding: 5px 10px; /* Adjusts the size of the buttons */
+  font-size: 12px; /* Smaller font size for the buttons */
+  border-radius: 4px;
+  background-color: #f56a6a; /* Button background color */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #e05a5a; /* Slightly darker color on hover */
+}
+
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-item {
+  width: 300px; /* Adjust the width as needed */
+  margin: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.service-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for the About Us section */
+.about {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.about-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px; /* Space below the header section */
+}
+
+.about-logo {
+  width: 150px; /* Adjust the size of the logo as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Space between logo and heading */
+}
+
+.about h1 {
+  font-size: 36px; /* Font size for the main heading */
+  color: #333; /* Dark color for the heading */
+  margin: 0; /* Remove default margin */
+}
+
+.about p {
+  font-size: 18px; /* Font size for paragraph text */
+  color: #666; /* Gray color for text */
+  line-height: 1.6; /* Increase line height for readability */
+  margin-top: 10px; /* Space above the paragraph text */
+}
+
+.about h2 {
+  font-size: 30px; /* Font size for subheadings */
+  color: #333; /* Dark color for subheadings */
+  margin-top: 30px; /* Space above subheadings */
+}
+
+.about ul {
+  list-style-type: disc; /* Style for list items */
+  padding-left: 20px; /* Indentation for list items */
+}
+
+.about ul li {
+  font-size: 16px; /* Font size for list items */
+  margin-bottom: 10px; /* Space below each list item */
+}
+
+.founders {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between founder items */
+  justify-content: center; /* Center-align founder items */
+}
+
+.founder {
+  text-align: center;
+  max-width: 250px; /* Limit width of each founder section */
+  border: 1px solid #ddd; /* Border around each founder section */
+  border-radius: 5px; /* Rounded corners */
+  padding: 15px; /* Padding inside each founder section */
+  background-color: #f9f9f9; /* Light background color for founder sections */
+}
+
+.founder h3 {
+  margin: 0 0 10px; /* Space below the heading */
+  font-size: 18px; /* Font size for founder names */
+}
+
+.founder p {
+  font-size: 16px; /* Font size for founder email */
+  color: #666; /* Gray color for text */
+}
+
+/* Style for the product container */
+.products-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto the next line */
+  gap: 20px; /* Space between product items */
+  justify-content: space-between; /* Distribute space between items */
+}
+
+/* Style for each product item */
+.product-item {
+  flex: 1 1 calc(25% - 20px); /* Adjust size to fit four items per row with gap */
+  box-sizing: border-box; /* Include padding and border in the element's width */
+  border: 1px solid #ddd; /* Border around each product item */
+  border-radius: 5px; /* Rounded corners */
+  overflow: hidden; /* Ensure no content overflows the borders */
+  background-color: #fff; /* White background for product items */
+  text-align: center; /* Center text inside product items */
+  padding: 10px; /* Padding inside the product items */
+}
+
+.product-item img {
+  width: 100%; /* Make the image fill the width of the container */
+  height: auto; /* Maintain the aspect ratio of the image */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+  border-bottom: 1px solid #ddd; /* Border below the image */
+}
+
+.product-item h3 {
+  margin: 10px 0 5px; /* Space around the heading */
+  font-size: 18px; /* Font size for product title */
+}
+
+.product-item p {
+  font-size: 14px; /* Font size for product description */
+  color: #666; /* Gray color for text */
+}
+
+.product-item .price {
+  font-size: 16px; /* Font size for price */
+  color: #333; /* Darker color for price */
+  margin: 5px 0; /* Space above and below the price */
+}
+
+
+/* Style for the hero section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Adjust height as needed */
+  background: linear-gradient(to bottom right, #ffe5b4, #ffab91); /* Gradient peach background */
+  text-align: center; /* Center-align text */
+  padding: 20px; /* Padding around the hero section */
+}
+
+.hero-content {
+  max-width: 1200px; /* Limit the width of the content */
+  margin: 0 auto; /* Center the content */
+  color: #fff; /* White text color for better contrast */
+}
+
+.hero .logo {
+  width: 150px; /* Adjust size of the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Space between logo and text */
+}
+
+.hero h1 {
+  font-size: 36px; /* Font size for the main heading */
+  margin: 0; /* Remove default margin */
+  color: #ff6f61; /* Darker peach color for the heading */
+}
+
+.hero p {
+  font-size: 18px; /* Font size for the description */
+  color: black; /* White color for the text */
+  margin: 10px 0 0; /* Space between description and heading */
+}
+
+/* Apply orange color to all bold text (h1, h2, h3, etc.) */
+h1, h2, h3, h4, h5, h6, strong, b {
+  color: #FF5722; /* Orange color */
+}
+
+/* Apply orange color to all bold text (h1, h2, h3, etc.) */
+h1, h2, h3, h4, h5, h6, strong, b {
+  color: #FF5722; /* Orange color */
+}
+
+/* Apply orange-red color to all buttons */
+button {
+  background-color: #FF5722; /* Orange-red color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 15px 20px; /* Padding inside the button */
+  font-size: 18px; /* Font size for button text */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Darker orange-red background on button hover */
+button:hover {
+  background-color: #E64A19; /* Darker orange-red */
+}
+
+/* Specific styles for the hero section and contact form */
+.hero h1 {
+  color: black; /* Orange color for the main heading in hero section */
+}
+
+.contact button {
+  background-color: #FF5722; /* Orange-red color for 'Send Message' button */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 15px 20px; /* Padding inside the button */
+  font-size: 18px; /* Font size for button text */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.contact button:hover {
+  background-color: #E64A19; /* Darker orange-red on hover */
+}
+
+/* Ensure all headings in About and Contact sections are styled in orange */
+.about h1, .about h2, .contact h2 {
+  color: #FF5722; /* Orange color for headings */
+}
+/* Style for the cart section */
+.cart-section {
+  padding: 20px;
+  background: linear-gradient(to bottom right, #f5f5f5, #e0e0e0); /* Light gradient background */
+}
+
+.cart-item {
+  background-color: #fff; /* White background for each item */
+  border: 1px solid #ddd; /* Light border around each item */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 15px; /* Padding inside each item */
+  margin-bottom: 20px; /* Space below each item */
+}
+
+.cart-item h3 {
+  margin: 0 0 10px; /* Space below the heading */
+  font-size: 20px; /* Font size for product name */
+  color: #333; /* Dark color for text */
+}
+
+.cart-item p {
+  margin: 5px 0; /* Space around paragraph text */
+  font-size: 16px; /* Font size for price and quantity */
+  color: #666; /* Gray color for text */
+}
+
+.cart-section h2 {
+  font-size: 28px; /* Font size for section heading */
+  color: #333; /* Dark color for the heading */
+  margin: 0 0 20px; /* Space below the heading */
+}
+
+.cart-section h3 {
+  font-size: 24px; /* Font size for total amount */
+  color: #ff6f61; /* Peach color for total amount */
+  margin: 20px 0 0; /* Space above the total amount */
+}
+.join-button {
+  display: inline-block;
+  padding: 5px 10px; /* Smaller padding */
+  margin-top: 10px;
+  background-color: #FF5722; /* Orange-red color for the button */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px; /* Slightly smaller border radius */
+  font-size: 14px; /* Smaller font size */
+}
+
+.join-button:hover {
+  background-color: #E64A19; /* Darker orange-red on hover */
+}
+/* Style for the Join Us section */
+.join {
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.join h2 {
+  font-size: 36px;
+  color: #FF5722; /* Orange-red color for the heading */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.join-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.join p {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #FF5722;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+form button:hover {
+  background-color: #E64A19;
+}
+ /* Membership List Styles */
+.membership-list {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.membership-list h2 {
+  text-align: center;
+  color: orangered;
+  margin-bottom: 20px;
+}
+
+.membership-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.membership-list table th,
+.membership-list table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.membership-list table th {
+  background-color: #333;
+  color: white;
+  text-transform: uppercase;
+}
+
+.membership-list table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.membership-list table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.membership-list table td {
+  color: #333;
+}
+
+
